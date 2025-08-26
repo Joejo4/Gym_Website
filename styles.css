@@ -128,3 +128,44 @@ p {
   -ms-flex-align: center;
   align-items: center;
 }
+.header #mobile-menu-toggle {
+  padding: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .header #mobile-menu-toggle {
+    display: none;
+  }
+}
+
+.desktop-menu {
+  display: none;
+}
+
+.desktop-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.desktop_menu_link {
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+.desktop_menu_link:hover {
+  text-decoration: underline;
+}
+
+.desktop_menu_link.active {
+  text-decoration: underline;
+}
+@media screen and (min-width: 600px) {
+  .desktop_menu {
+    display: block;
+  }
+}
