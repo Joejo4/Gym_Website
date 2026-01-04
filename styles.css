@@ -1,0 +1,67 @@
+:root {
+  --primary: #d90429; /* Deep Punchy Red */
+  --primary-hover: #b90422;
+
+  --iron: #2b2d42; /* Metallic Blue-Gray */
+  --silver: #8d99ae;
+  --anti-flash: #edf2f4; /* Off-white for sections */
+
+  --text-dark: #1a1a1a;
+  --font-heading: "Inter", sans-serif;
+  --font-body: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--anti-flash);
+  color: var(--text-dark);
+}
+header {
+  background-color: var(--iron);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: var(--font-heading);
+  font-size: 28px;
+  color: var(--anti-flash);
+}
+.logo span {
+  color: var(--primary);
+}
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.nav-links a {
+  color: var(--anti-flash);
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--font-body);
+}
+.nav-links a:hover {
+  color: var(--primary);
+}
+.btn {
+  background-color: var(--primary);
+  color: var(--anti-flash);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: var(--primary-hover);
+}
