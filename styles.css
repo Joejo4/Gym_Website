@@ -28,6 +28,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 .logo {
   font-family: var(--font-heading);
@@ -64,4 +66,96 @@ header {
 }
 .btn:hover {
   background-color: var(--primary-hover);
+}
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+.home {
+  text-align: center;
+  padding: 100px 20px;
+  background-image: url(./img/Home.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  color: var(--anti-flash);
+}
+.home h1 {
+  font-family: var(--font-heading);
+  font-size: 62px;
+  margin-bottom: 20px;
+}
+.home p {
+  font-family: var(--font-body);
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.home .btn {
+  font-size: 20px;
+  padding: 12px 30px;
+  margin-top: 20px;
+}
+.home .btn:hover {
+  background-color: var(--primary-hover);
+}
+.about {
+  padding: 80px 20px;
+  background-color: var(--anti-flash);
+  text-align: center;
+}
+.about h2 {
+  font-family: var(--font-heading);
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.about h1 {
+  font-family: var(--font-heading);
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.about .highlight {
+  color: var(--primary);
+}
+.about p {
+  font-family: var(--font-body);
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.standards {
+  margin-top: 50px;
+}
+.standards h2 {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.standards p {
+  font-family: var(--font-body);
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+.standards ul {
+  list-style-type: disc;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+.standards ul li {
+  font-family: var(--font-body);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.standards ul li strong {
+  color: var(--primary);
 }
