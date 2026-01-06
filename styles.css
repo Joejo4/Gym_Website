@@ -159,3 +159,36 @@ header {
 .standards ul li strong {
   color: var(--primary);
 }
+.services {
+  padding: 80px 20px;
+  background-color: var(--anti-flash);
+  text-align: center;
+}
+.services h2 {
+  font-family: var(--font-heading);
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.service-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.service-card {
+  background-color: var(--silver);
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.service-card h3 {
+  font-family: var(--font-heading);
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.service-card p {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.4;
+}
