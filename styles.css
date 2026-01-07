@@ -177,7 +177,9 @@ header {
 }
 .service-card {
   background-color: var(--silver);
-  padding: 20px;
+
+  color: var(--text-dark);
+  padding: 50px;
   border-radius: 10px;
   width: 250px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -191,4 +193,50 @@ header {
   font-family: var(--font-body);
   font-size: 16px;
   line-height: 1.4;
+}
+.contact {
+  padding: 80px 20px;
+  background-color: var(--anti-flash);
+  text-align: center;
+}
+.contact h2 {
+  font-family: var(--font-heading);
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border: 1px solid var(--silver);
+  border-radius: 5px;
+  font-family: var(--font-body);
+  font-size: 16px;
+}
+.contact button {
+  background-color: var(--primary);
+  color: var(--anti-flash);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-weight: bold;
+}
+.contact button:hover {
+  background-color: var(--primary-hover);
+}
+footer {
+  background-color: var(--iron);
+  color: var(--anti-flash);
+  text-align: center;
+  padding: 15px 0;
+  font-family: var(--font-body);
+  margin-top: 40px;
 }
